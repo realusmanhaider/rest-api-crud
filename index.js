@@ -3,7 +3,7 @@ const mongoose = require("mongoose");
 const cors = require("cors");
 
 
-const uri = 'mongodb+srv://haiderusman807:mobile@cluster0.kbprw9i.mongodb.net/?retryWrites=true&w=majority'
+const uri = 'MongoDBURL'
 
 mongoose
   .connect(uri, {
